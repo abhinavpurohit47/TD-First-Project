@@ -1,0 +1,452 @@
+
+ * {
+            box-sizing: border-box;
+        }
+
+.tweetcard:hover{
+    background-color: #F5F8FA;
+}
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 30;
+            font-size: 16px;
+        }
+
+        .ani{
+            color: black;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-bottom: 1.7rem;
+            box-sizing: 190px;
+            border-radius: 40px;
+            padding-left: 1rem;
+        }
+
+        .ani:hover{
+            background-color: #d7e8f3;
+            color: #1DA1F2;
+            border-radius: 2rem;
+            padding: 1rem; 
+            text-align: initial;
+            
+        }
+        .sideicon{
+            color: black;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-bottom: 1.7rem;
+            box-sizing: 190px;
+            border-radius: 40px;
+            padding-left: 1rem;
+        }
+
+
+        .sideicon:hover{
+            background-color: #d7e8f3;
+            color: #1DA1F2;
+            border-radius: 2rem;
+            padding: 1rem; 
+            
+        }
+
+        .dptext{
+            font-size: 20px;
+        }
+
+        .dp{
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            margin-bottom:-10px ; 
+        }
+
+
+        .home{
+            color:#00acee ;
+        }
+
+        .use{
+            color: gray;
+            margin-top: 100px;
+        }
+        
+
+        .username{
+            color:grey;
+        }
+       
+        .pic{   
+            color: #0084b4;
+            justify-content: space-between;
+            height: 30px;
+            width: 30px;
+            margin-left: 5px;
+            margin-right: 10px;
+            margin-top: 20px;
+        }     
+        .pic:active,.pic:hover{
+            background-color:lightblue;
+              color: #1DA1F2;
+            border-radius: 18px;
+              box-sizing: 1px;
+              background-origin: padding-box;
+         
+          }  
+
+          .button3{
+
+           margin-left:45px;
+            border-color: #30A9F3;
+            border-radius: 40px;
+             background-color:#FFFFFF;  
+             width: 75px;
+             height: 27px;
+             color: #30A9F3;
+             line-height: 0px;
+            
+        }
+        .button3:hover{
+            background-color: #EDF0F2;
+            
+        }
+          
+/*
+img { max-width: 100%; height: auto; }
+
+/* Media Queries: Tablet Landscape 
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait 
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}*/
+
+        .twi{
+           height:280px;
+           width: 500px;
+           margin-left: 120px;
+        }
+
+        .uppericon{
+            margin-left: 50px;
+        }
+
+
+        .icon2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+        }
+
+        .trends{
+            color: gray;
+        }
+
+        .button{
+            background-color: #1DA1F2;
+            color: #C3E2F5;
+            border-radius: 40px;
+            width: 230px;
+            height: 50px;
+            line-height: 0px;
+            font-size: 10px;
+        }
+        .button:hover{
+            background-color: #1A91DA;
+        }
+
+        .button2{
+            background-color:#8ED0F9;
+            color: #FFFFFF;
+            border-radius: 250px;
+            float: right;
+            width: 75px;
+            height: 40px;
+           text-align: center;
+           line-height: 0px;
+           margin-right: 20px;
+           
+        }
+
+        .setting{
+            color: #00acee;
+            float: right;
+            margin-top: -35px;
+        }
+
+        .info{
+            color: dimgray;
+            font-size: 10px;
+            margin-right: 11px;
+        }
+
+        .ac{
+            color: #1DA1F2;
+            float: center;
+        }
+
+        .reactions1{
+            color: gray;
+            justify-content: space-between;    
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 25px;
+        }
+        .reactions1:hover{
+            color:#1DA1F2;
+        }
+        .reactions3{
+            color: gray;
+            justify-content: space-between;    
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 25px;
+        }
+        .reactions3:hover{
+            color:red
+        }
+        
+
+        .card2{
+            background-color:#F5F8FA;
+            padding:20px;
+            margin-top: 10px;
+            border-radius: 50px;
+          
+          }
+        .card2:hover{
+         background-color: #EDF0F2;
+        }
+.reactions2{
+        display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+    float: center;
+    
+            margin-right: 190px;
+    }
+
+    .news{
+        flex:75%;
+    }
+     .newsimg{
+         flex: 25%;
+        height: auto;
+        width: 30px;
+         border-radius:  50%;
+     }
+     .ttb{
+         color: hsl(197, 100%, 47%);
+         font-size: 20px;
+     }
+     .textside{
+         font-size: 20px;
+     }
+     
+     .ppp{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-bottom: -5px;    
+     }
+        .icons{
+            list-style: none;
+            height: 40px;
+            width: 20px;
+        }
+        .twittericon{
+
+            height: 80px;
+            width: 80px;
+
+        }
+        .row {
+            display: flex;
+            flex: 20rem;
+            flex-wrap: wrap;
+            color: black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            
+        }
+        .newstop{
+            margin-bottom: -10px;
+            color: dimgrey;
+            font-size: 13px;
+            
+        }
+        .side {
+            flex: 24%;
+            background-color: white;
+            padding-left: 20px;
+            border-right: 5px;
+            border-color: black;
+        }
+       
+        .main {
+            flex: 50%;
+            background-color: white;
+        }
+        
+        .border{
+            border-right: 5px solid black;
+
+            height: 100%;
+        }
+        
+        
+        
+        
+        
+      .card{
+        background-color: rgb(225, 232, 237);
+          padding:20px;
+          margin-top: 10px;
+          border-radius: 50px;
+        
+         
+      }
+      .show{
+          color: #00acee;
+      }
+      
+      .tweetcard{
+          background-color: rgb(255, 255, 255);
+          padding:20px;
+          margin-top: 5px;
+         border-radius:10px ;
+        }
+
+        .info:hover{
+            text-decoration: underline;
+        }
+        
+
+    .wh{
+        border-radius: 60px;
+        color: gray;
+        background-color: rgb(225, 232, 237);
+    }
+
+        
+        .circular--square {
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+          }
+          .span2{
+            color: gray; 
+            flex:65%;
+        }
+          
+          .img{
+              flex: content;
+          }
+          .id{
+              flex: content;
+              margin-right: 10px;
+          }
+          .search{
+            border-radius: 60px;
+            color: gray;
+            background-color: rgb(225, 232, 237);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            line-height: 22px; 
+            text-align: center;
+            height: 25px;
+          }
+            @media only screen and (min-width:1200px)
+          {
+              .xl-hide{
+                 display: none !important;
+              }
+          }
+          @media only screen and (max-width:1200px) and (min-width:1061px)
+          {
+              .lg-hide{
+                 display: none;
+              }
+              .button{
+                  width:40px;
+                  height: 40px;
+              }
+              textarea{
+                  width:90%;
+              }
+              .side{
+                  flex:5%;
+              }
+              .main{
+                  flex:50%;
+              }
+              .sr{
+                  flex:20%
+              }
+          }
+          @media only screen and (min-width:769px) and (max-width:1060px)
+          {
+              .md-hide{
+                display:none;  
+              }
+              .button{
+                  width:40px;
+                  height: 40px;
+              }
+              .side{
+                  flex:5%;
+              }
+              .main{
+                  flex:80%;
+              }
+              textarea{
+                  width:90%;
+              }
+          }
+            @media only screen and (max-width:768px) and (min-width:569px)
+          {
+              .sm-hide{
+                 display: none; 
+              }
+               .button{
+                  width:40px;
+                  height: 40px;
+              }
+                .side{
+                  flex:5%;
+              }
+              .main{
+                  flex:80%;
+              }
+              textarea{
+                  width:90%;
+              }
+          }
+           @media only screen and (max-width:576px)
+          {
+              .xs-hide{
+                 display: none; 
+              }
+               .button{
+                  width:40px;
+                  height: 40px;
+              }
+                .side{
+                  flex:2%;
+              }
+              .main{
+                  flex:10%;
+              }
+              textarea{
+                  width:90%;
+              }
+          }
